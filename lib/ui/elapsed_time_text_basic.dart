@@ -16,7 +16,7 @@ class ElapsedTimeTextBasic extends StatelessWidget {
     return Text(
       '$minutesStr:$secondsStr.$hundredsStr',
       textAlign: TextAlign.center,
-      style: TextStyle(fontSize: 40),
+      style: TextStyle(fontSize: 24),
     );
   }
 }
